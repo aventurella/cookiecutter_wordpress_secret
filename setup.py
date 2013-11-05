@@ -24,6 +24,11 @@ packages = [
     'cookiecutter_wordpress_secret',
 ]
 
+dependency_links = [
+    'https://github.com/aventurella/cookiecutter/tarball/dev#egg=cookiecutter-dev'
+]
+
+
 setup(
     name='cookiecutter_wordpress_secret',
     version='0.1.0',
@@ -36,6 +41,7 @@ setup(
     package_dir={'cookiecutter_wordpress_secret': 'cookiecutter_wordpress_secret'},
     include_package_data=True,
     install_requires=install_requires,
+    dependency_links=dependency_links,
     license="BSD",
     zip_safe=False,
     keywords='cookiecutter plugin',
