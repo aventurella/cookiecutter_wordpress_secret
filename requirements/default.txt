@@ -1,2 +1,2 @@
-cookiecutter==0.8.0
+cookiecutter>=0.8.0
 requests>=2.0.0
