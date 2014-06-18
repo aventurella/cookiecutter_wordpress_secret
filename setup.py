@@ -31,7 +31,7 @@ dependency_links = [
 
 setup(
     name='cookiecutter_wordpress_secret',
-    version='0.1.0',
+    version='0.1.1',
     description='Cookiecutter Wordpress Secret Jinja Plugin',
     long_description=readme,
     author='Adam Venturella',
